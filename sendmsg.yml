@@ -17,4 +17,4 @@
     win_ping:
 
   - name: send msg
-win_shell: msg.exe * "{{ Message }}"
+    win_shell: msg.exe * "{{ Message }}"
