@@ -3,14 +3,14 @@
 - name: Maintenance on TSE
   hosts: all
 
-#  vars_prompt:
-#    - name: "Message"
-#      prompt: "Entrez votre message"
-#      private: no
+  vars_prompt:
+    - name: "Message"
+      prompt: "Entrez votre message"
+      private: no
 #      default: "localhost"
 
-  vars:
-      Message: Testo
+ # vars:
+ #     Message: Testo
 
   tasks:
   - name: Ping TSE
